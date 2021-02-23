@@ -1,0 +1,31 @@
+*{
+    font-family: Verdana,Tahoma, sans-serif;
+}
+h1,.pic,p{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+h1,p{
+    position: relative;
+    top: -30px;
+}
+.pic i{
+    font-size: 3.5rem;
+    padding: 20px 5px 10px 20px;
+    color: grey;
+}
+h1{
+    padding-right: 20px;
+    font-size: 1rem;
+    padding-top: -20px;
+}
+span{
+    position: relative;
+    font-size: 0.9rem;
+    right: 160px;
+}
+p{
+    color: grey;
+    font-size: 0.9rem;
+}
